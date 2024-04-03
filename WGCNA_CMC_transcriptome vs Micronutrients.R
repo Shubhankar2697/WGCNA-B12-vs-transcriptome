@@ -197,11 +197,11 @@ verboseScatterplot(abs(geneModuleMembership[moduleGenes, column]),
                    cex.main = 1.2, cex.lab = 1.2, cex.axis = 1.2, col = module)
 
 ############# To extract modules associated with cord blood B12 levels##########
-yellow = colnames(datExpr1)[moduleColors=="yellow"]
+yellow = colnames(datExpr)[moduleColors=="yellow"]
 write.csv(yellow, file = "Yellow_b12_signed.csv")
 
-turquoise = colnames(datExpr1)[moduleColors=="turquoise"]
+turquoise = colnames(datExpr)[moduleColors=="turquoise"]
 write.csv(turquoise, file = "Turquoise_b12_signed.csv")
 
-brown = colnames(datExpr1)[moduleColors=="brown"]
+brown = colnames(datExpr)[moduleColors=="brown"]
 write.csv(brown, file = "Brown_B12_signed.csv")
