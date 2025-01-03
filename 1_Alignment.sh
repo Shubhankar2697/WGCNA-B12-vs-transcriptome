@@ -1,3 +1,4 @@
+## Author: Satyajeet Khare, Asst Prof, Symbiosis International (Deemed University), India. Contact: satyajeetkhare@gmail.com
 #!/bin/bash
 folder="/B12_WGCNA/"
 mkdir "${folder}/hisat2"
