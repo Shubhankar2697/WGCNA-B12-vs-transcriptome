@@ -1,9 +1,4 @@
 ## Author: Shubhankar A Pawar. Contact: shubhankarpawar3@gmail.com
-
-
-
-
-
 getwd()
 setwd("/B12_WGCNA/nutshell/")
 gene1 <-read.csv("vst_no__batch_correction.csv")
